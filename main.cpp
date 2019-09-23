@@ -6,62 +6,63 @@ void display()
     glClearColor(1.0,1.0,1.0,1.0);
     glClear(GL_COLOR_BUFFER_BIT);
 
+    glBegin(GL_LINES);
+    glColor3f(0,0,0);
+    glVertex2f(1,0);
+    glVertex2f(-1,0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor3f(0,0,0);
+    glVertex2f(0,1);
+    glVertex2f(0,-1);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(1,0,0);
+    glVertex2f(.3,.3);
+    glVertex2f(.8,.3);
+    glVertex2f(.6,.8);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor3f(1,0,0);
+    glVertex2f(-.3,-.3);
+    glVertex2f(-.8,-.3);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor3f(1,0,0);
+    glVertex2f(-.3,-.3);
+    glVertex2f(-.5,-.8);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor3f(1,0,0);
+    glVertex2f(-.8,-.3);
+    glVertex2f(-.5,-.8);
+    glEnd();
 
      glBegin(GL_QUADS);
-     glColor3ub(235, 67, 52);
-     glVertex2f(-.7,.3);
-     glVertex2f(.7,.3);
-     glVertex2f(.7,.2);
-     glVertex2f(-.7,.2);
+     glColor3f(1,1,0);
+     glVertex2f(.3,-.4);
+     glVertex2f(.6,-.4);
+     glVertex2f(.6,-.8);
+     glVertex2f(.3,-.8);
      glEnd();
 
-     glBegin(GL_QUADS);
-     glColor3ub(235, 137, 52);
-     glVertex2f(-.7,.2);
-     glVertex2f(.7,.2);
-     glVertex2f(.7,.1);
-     glVertex2f(-.7,.1);
+    glBegin(GL_POLYGON);
+     glColor3f(0,1,0);
+     glVertex2f(-.8,.9);
+     glVertex2f(-.9,.8);
+     glVertex2f(-.9,.6);
+     glVertex2f(-.8,0.5);
+     glVertex2f(-.5,0.5);
+     glVertex2f(-.4,0.6);
+     glVertex2f(-.4,0.8);
+     glVertex2f(-.5,.9);
      glEnd();
 
-     glBegin(GL_QUADS);
-     glColor3ub(251, 255, 0);
-     glVertex2f(-.7,.1);
-     glVertex2f(.7,.1);
-     glVertex2f(.7,0);
-     glVertex2f(-.7,0);
-     glEnd();
-
-     glBegin(GL_QUADS);
-     glColor3ub(131, 184, 51);
-     glVertex2f(-.7,0);
-     glVertex2f(.7,0);
-     glVertex2f(.7,-.1);
-     glVertex2f(-.7,-.1);
-     glEnd();
-
-     glBegin(GL_QUADS);
-     glColor3ub(51, 104, 184);
-     glVertex2f(-.7,-.1);
-     glVertex2f(.7,-.1);
-     glVertex2f(.7,-.2);
-     glVertex2f(-.7,-.2);
-     glEnd();
-
-     glBegin(GL_QUADS);
-     glColor3ub(140, 51, 184);
-     glVertex2f(-.7,-.2);
-     glVertex2f(.7,-.2);
-     glVertex2f(.7,-.3);
-     glVertex2f(-.7,-.3);
-     glEnd();
-
-     glBegin(GL_QUADS);
-     glColor3ub(184, 51, 177);
-     glVertex2f(-.7,-.3);
-     glVertex2f(.7,-.3);
-     glVertex2f(.7,-.4);
-     glVertex2f(-.7,-.4);
-     glEnd();
 
     glFlush();//Render now
 

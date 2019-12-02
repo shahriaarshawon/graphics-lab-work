@@ -104,122 +104,122 @@ void lineSlipper()
 {
     glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-1.8,-0.8);
-	glVertex2f(-1.75,-1.0);
+	glVertex2f(-1.8,-1.75);
+	glVertex2f(-1.75,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-1.6,-0.8);
-	glVertex2f(-1.55,-1.0);
+	glVertex2f(-1.6,-1.75);
+	glVertex2f(-1.55,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-1.4,-0.8);
-	glVertex2f(-1.35,-1.0);
+	glVertex2f(-1.4,-1.75);
+	glVertex2f(-1.35,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-1.2,-0.8);
-	glVertex2f(-1.15,-1.0);
+	glVertex2f(-1.2,-1.75);
+	glVertex2f(-1.15,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-1.0,-0.8);
-	glVertex2f(-0.95,-1.0);
+	glVertex2f(-1.0,-1.75);
+	glVertex2f(-0.95,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-0.8,-0.8);
-	glVertex2f(-0.75,-1.0);
+	glVertex2f(-0.8,-1.75);
+	glVertex2f(-0.75,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-0.6,-0.8);
-	glVertex2f(-0.55,-1.0);
+	glVertex2f(-0.6,-1.75);
+	glVertex2f(-0.55,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-0.4,-0.8);
-	glVertex2f(-0.35,-1.0);
+	glVertex2f(-0.4,-1.75);
+	glVertex2f(-0.35,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-0.4,-0.8);
-	glVertex2f(-0.35,-1.0);
+	glVertex2f(-0.4,-1.75);
+	glVertex2f(-0.35,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-0.2,-0.8);
-	glVertex2f(-0.15,-1.0);
+	glVertex2f(-0.2,-1.75);
+	glVertex2f(-0.15,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(0.0,-0.8);
-	glVertex2f(0.05,-1.0);
+	glVertex2f(0.0,-1.75);
+	glVertex2f(0.05,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(0.2,-0.8);
-	glVertex2f(0.25,-1.0);
+	glVertex2f(0.2,-1.75);
+	glVertex2f(0.25,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(0.4,-0.8);
-	glVertex2f(0.45,-1.0);
+	glVertex2f(0.4,-1.75);
+	glVertex2f(0.45,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(0.6,-0.8);
-	glVertex2f(0.65,-1.0);
+	glVertex2f(0.6,-1.75);
+	glVertex2f(0.65,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(0.8,-0.8);
-	glVertex2f(0.85,-1.0);
+	glVertex2f(0.8,-1.75);
+	glVertex2f(0.85,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(1.0,-0.8);
-	glVertex2f(1.05,-1.0);
+	glVertex2f(1.0,-1.75);
+	glVertex2f(1.05,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(1.2,-0.8);
-	glVertex2f(1.25,-1.0);
+	glVertex2f(1.2,-1.75);
+	glVertex2f(1.25,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(1.4,-0.8);
-	glVertex2f(1.45,-1.0);
+	glVertex2f(1.4,-1.75);
+	glVertex2f(1.45,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(1.6,-0.8);
-	glVertex2f(1.65,-1.0);
+	glVertex2f(1.6,-1.75);
+	glVertex2f(1.65,-1.95);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(1.8,-0.8);
-	glVertex2f(1.85,-1.00);
+	glVertex2f(1.8,-1.75);
+	glVertex2f(1.85,-1.95);
 	glEnd();
 
 
@@ -382,14 +382,14 @@ void Translate_tree()
 	glEnd();
 
 	glBegin(GL_TRIANGLES);
-	glColor3b(0, 102, 0);
+	glColor3ub(36, 140, 15);
 	glVertex2f(1.65,0.8);
 	glVertex2f(1.4,0.4);
 	glVertex2f(1.9,0.4);
 	glEnd();
 
 	glBegin(GL_TRIANGLES);
-	glColor3b(0, 102, 0);
+	glColor3ub(46, 191, 17);
 	glVertex2f(1.65,1.1);
 	glVertex2f(1.43,0.59);
 	glVertex2f(1.87,0.59);
@@ -492,7 +492,9 @@ void display()
 
     //sky
     glBegin(GL_QUADS);
-	glColor3ub(110, 230, 230);
+	//glColor3ub(110, 230, 230);
+	glColor3ub(20, 20, 31);
+
 	glVertex2f(-2.0,2.0);
 	glVertex2f(-2.0,0);
 	glVertex2f(2.0, 0);
@@ -531,14 +533,14 @@ void display()
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-2.0,-0.85);
-	glVertex2f(2.0,-0.85);
+	glVertex2f(-2.0,-1.80);
+	glVertex2f(2.0,-1.80);
 	glEnd();
 
 	glBegin(GL_LINES);
 	glColor3b(0,0,0);
-	glVertex2f(-2.0,-0.95);
-	glVertex2f(2.0,-0.95);
+	glVertex2f(-2.0,-1.90);
+	glVertex2f(2.0,-1.90);
 	glEnd();
 
 	thikness = 1.5;
@@ -577,10 +579,10 @@ glTranslatef(position, 0.0f,0.0f);
 
    glBegin(GL_QUADS);
 glColor3ub(214, 122, 47);
-glVertex2f(-0.5,0.2);
-glVertex2f(-0.5,-0.2);
-glVertex2f(-0.2,-0.2);
-glVertex2f(-0.2,0.2);
+glVertex2f(0.5,0.2);
+glVertex2f(0.5,-0.2);
+glVertex2f(0.2,-0.2);
+glVertex2f(0.2,0.2);
 glEnd();
 
     glPopMatrix();
@@ -632,7 +634,7 @@ int main(int argc, char *argv[])
     glutInit(&argc, argv);
     glutInitWindowSize(850,550);
     glutInitWindowPosition(100,100);
-    glutCreateWindow("GLUT Shapes");
+    glutCreateWindow("Railway Platform");
     glutDisplayFunc(display);
 
      //glutTimerFunc(100, birdd, 0);
